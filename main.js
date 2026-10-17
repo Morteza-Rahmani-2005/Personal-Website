@@ -340,21 +340,37 @@ import "./icons.js";
 
   sections.forEach((section) => sectionObserver.observe(section));
 
+  function markRevealVisible(el) {
+    el.classList.add("is-visible");
+  }
+
+  function initRevealsInView() {
+    document.querySelectorAll(".reveal").forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.95) {
+        markRevealVisible(el);
+      }
+    });
+  }
+
   const revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
+          markRevealVisible(entry.target);
           revealObserver.unobserve(entry.target);
         }
       });
     },
-    { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+    { threshold: 0.08, rootMargin: "0px 0px -5% 0px" }
   );
 
-  document
-    .querySelectorAll(".reveal")
-    .forEach((el) => revealObserver.observe(el));
+  document.querySelectorAll(".reveal").forEach((el) => {
+    revealObserver.observe(el);
+  });
+
+  initRevealsInView();
+  window.addEventListener("load", initRevealsInView);
 
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", (e) => {
