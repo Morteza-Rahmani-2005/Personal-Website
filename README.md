@@ -104,12 +104,16 @@ npm run dev      # local: http://localhost:5173
 npm run build    # output in dist/
 ```
 
-This repo includes a GitHub Actions workflow (`.github/workflows/deploy-pages.yml`) that builds and deploys to **GitHub Pages** on every push to `main`.
+On every push to `main`, GitHub Actions builds the site and publishes the `dist` folder to the **`gh-pages`** branch.
 
-1. Create a repository on GitHub (e.g. `Personal-Website`).
-2. Push this project to the `main` branch.
-3. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. After the workflow succeeds, the site is live at  
-   `https://<your-username>.github.io/<repository-name>/`
+1. Push this project to the `main` branch on GitHub.
+2. Wait for the **Deploy to GitHub Pages** workflow to finish (tab **Actions**).
+3. In the repo: **Settings → Pages → Build and deployment**  
+   - **Source:** Deploy from a branch  
+   - **Branch:** `gh-pages` / `/ (root)`  
+   - Save
+4. Open: `https://<your-username>.github.io/<repository-name>/`
 
-If you rename the repository, no config change is needed—the workflow sets `VITE_BASE` from the repo name automatically.
+**Important:** Do **not** use `main` as the Pages branch—that serves raw source files and the site will have **no styles**. Always use **`gh-pages`** (after the workflow has run once).
+
+`VITE_BASE` is set automatically from the repository name during the build.
