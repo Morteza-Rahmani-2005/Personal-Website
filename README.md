@@ -93,27 +93,3 @@ I’m continuously working on personal and professional projects to strengthen m
 <p align="center">
   <i>Always learning. Always building. 🚀</i>
 </p>
-
----
-
-## Development & GitHub Pages
-
-```bash
-npm install
-npm run dev      # local: http://localhost:5173
-npm run build    # output in dist/
-```
-
-On every push to `main`, GitHub Actions builds the site and publishes the `dist` folder to the **`gh-pages`** branch.
-
-1. Push this project to the `main` branch on GitHub.
-2. Wait for the **Deploy to GitHub Pages** workflow to finish (tab **Actions**).
-3. In the repo: **Settings → Pages → Build and deployment**  
-   - **Source:** Deploy from a branch  
-   - **Branch:** `gh-pages` / `/ (root)`  
-   - Save
-4. Open: `https://<your-username>.github.io/<repository-name>/`
-
-**Important:** Do **not** use `main` as the Pages branch—that serves raw source files and the site will have **no styles**. Always use **`gh-pages`** (after the workflow has run once).
-
-`VITE_BASE` is set automatically from the repository name during the build.
