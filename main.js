@@ -33,6 +33,7 @@ import "./icons.js";
       "hero.statFocusVal": "UI / UX",
       "hero.statFocusDesc": "Design + code",
       "hero.cardRole": "Front-End Developer",
+      "hero.avatarAlt": "Portrait of Morteza Rahmani",
       "about.title": "About Me",
       "about.subtitle": "Turning ideas into clean, maintainable interfaces",
       "about.p1":
@@ -83,21 +84,14 @@ import "./icons.js";
       "goals.long5":
         "Continuously learn, build, experiment, and grow as a developer.",
       "projects.title": "Featured Projects",
-      "projects.subtitle": "Personal and professional work to explore new technologies",
-      "projects.intro":
-        'I\'m continuously working on projects to strengthen my skills. Add your best work below—edit <code class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-sky-300">index.html</code> or connect live links when ready.',
-      "projects.p1Title": "Component Library",
-      "projects.p1Desc":
-        "Reusable UI components with React & Tailwind—focused on accessibility and responsive layouts.",
-      "projects.p2Title": "Next.js App",
-      "projects.p2Desc":
-        "Full-stack style front-end exploring Next.js routing, data fetching, and performance patterns.",
-      "projects.p3Title": "Design-to-Code",
+      "projects.subtitle":
+        "Personal and professional work to explore new technologies—continuously building to strengthen my skills.",
+      "projects.p3Title": "Hotel Baman",
       "projects.p3Desc":
-        "Portfolio pieces that blend graphic design sensibility with clean, maintainable front-end code.",
-      "projects.soon": "Coming soon — add your link",
+        "Travel and hotel booking platform for hotels, villas, and tours across Iran—with instant reservation and 24/7 support.",
+      "projects.p3ImageAlt": "Hotel Baman homepage — hotel and travel booking",
+      "projects.viewLive": "View live site",
       "contact.title": "Connect With Me",
-      "contact.subtitle": "Let's build something great together",
       "contact.text":
         "Open to collaboration, freelance work, and learning opportunities.",
       "contact.email": "Email",
@@ -137,6 +131,7 @@ import "./icons.js";
       "hero.statFocusVal": "UI / UX",
       "hero.statFocusDesc": "طراحی + کد",
       "hero.cardRole": "توسعه‌دهنده فرانت‌اند",
+      "hero.avatarAlt": "تصویر مرتضی رحمانی",
       "about.title": "درباره من",
       "about.subtitle": "تبدیل ایده‌ها به رابط‌های تمیز و قابل نگهداری",
       "about.p1":
@@ -187,21 +182,14 @@ import "./icons.js";
       "goals.long5":
         "یادگیری، ساخت، آزمایش و رشد مداوم به‌عنوان توسعه‌دهنده.",
       "projects.title": "پروژه‌های منتخب",
-      "projects.subtitle": "کارهای شخصی و حرفه‌ای برای کشف فناوری‌های جدید",
-      "projects.intro":
-        'مدام روی پروژه‌ها کار می‌کنم تا مهارت‌هایم را تقویت کنم. بهترین کارهایت را پایین اضافه کن — فایل <code class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-sky-300">index.html</code> را ویرایش کن یا لینک واقعی بگذار.',
-      "projects.p1Title": "کتابخانه کامپوننت",
-      "projects.p1Desc":
-        "کامپوننت‌های UI قابل استفاده مجدد با React و Tailwind — با تمرکز بر دسترس‌پذیری و چیدمان واکنش‌گرا.",
-      "projects.p2Title": "اپلیکیشن Next.js",
-      "projects.p2Desc":
-        "فرانت‌اند با رویکرد full-stack؛ مسیریابی Next.js، دریافت داده و الگوهای عملکرد.",
-      "projects.p3Title": "از طراحی تا کد",
+      "projects.subtitle":
+        "کارهای شخصی و حرفه‌ای برای کشف فناوری‌های جدید؛ مدام روی پروژه‌ها کار می‌کنم تا مهارت‌هایم را تقویت کنم.",
+      "projects.p3Title": "هتل با من",
       "projects.p3Desc":
-        "نمونه‌کارهایی که حس طراحی گرافیک را با کد فرانت‌اند تمیز و قابل نگهداری ترکیب می‌کنند.",
-      "projects.soon": "به‌زودی — لینک خود را اضافه کنید",
+        "پلتفرم رزرو هتل، اقامتگاه و تور در سراسر ایران — با رزرو آنی و پشتیبانی ۲۴ ساعته.",
+      "projects.p3ImageAlt": "صفحه اصلی هتل با من — رزرو هتل و سفر",
+      "projects.viewLive": "مشاهده پروژه",
       "contact.title": "ارتباط با من",
-      "contact.subtitle": "بیایید با هم چیز خوبی بسازیم",
       "contact.text":
         "برای همکاری، پروژه فریلنس و فرصت‌های یادگیری در دسترس هستم.",
       "contact.email": "ایمیل",

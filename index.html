@@ -38,9 +38,18 @@
           class="group flex items-center gap-2 font-semibold tracking-tight text-white"
         >
           <span
-            class="header-control header-mark bg-gradient-to-br from-sky-400 to-violet-500 text-sm font-bold text-surface shadow-lg shadow-sky-500/20"
-            >MR</span
+            class="header-control header-mark overflow-hidden rounded-full p-0 shadow-lg shadow-sky-500/20"
           >
+            <img
+              src="/191166114.png"
+              alt=""
+              width="40"
+              height="40"
+              class="h-full w-full object-cover"
+              decoding="async"
+              data-i18n-alt="hero.avatarAlt"
+            />
+          </span>
           <span class="hidden sm:inline">Morteza Rahmani</span>
         </a>
 
@@ -217,9 +226,18 @@
                 class="flex h-full flex-col items-center justify-center rounded-[1.35rem] bg-card/90 p-8 text-center"
               >
                 <div
-                  class="mb-6 flex h-28 w-28 items-center justify-center rounded-full bg-gradient-to-br from-sky-400 to-violet-500 text-4xl font-bold text-surface shadow-xl"
+                  class="mb-6 h-28 w-28 overflow-hidden rounded-full shadow-xl ring-2 ring-white/10"
                 >
-                  MR
+                  <img
+                    src="/191166114.png"
+                    alt=""
+                    width="112"
+                    height="112"
+                    class="h-full w-full object-cover"
+                    loading="eager"
+                    decoding="async"
+                    data-i18n-alt="hero.avatarAlt"
+                  />
                 </div>
                 <p class="text-lg font-semibold text-white">Morteza Rahmani</p>
                 <p class="mt-1 text-sm text-slate-400" data-i18n="hero.cardRole">
@@ -606,80 +624,47 @@
           <div class="reveal mx-auto max-w-3xl text-center">
             <h2 class="section-title" data-i18n="projects.title">Featured Projects</h2>
             <p class="section-subtitle" data-i18n="projects.subtitle">
-              Personal and professional work to explore new technologies
-            </p>
-            <p class="mt-4 text-slate-400" data-i18n-html="projects.intro">
-              I'm continuously working on projects to strengthen my skills. Add
-              your best work below—edit
-              <code class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-sky-300"
-                >index.html</code
-              >
-              or connect live links when ready.
+              Personal and professional work to explore new technologies—continuously
+              building to strengthen my skills.
             </p>
           </div>
-          <div class="reveal mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div class="reveal mt-12 mx-auto grid max-w-md gap-6">
             <article class="project-card group">
-              <div
-                class="project-card__visual mb-4 h-40 rounded-xl bg-gradient-to-br from-sky-500/20 to-violet-500/20"
+              <a
+                href="https://hotelbaman.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card__visual mb-4 block h-40 rounded-xl border border-white/10 bg-slate-900/40"
               >
-                <svg class="ui-icon ui-icon--xl" aria-hidden="true"><use href="#i-grid"></use></svg>
-              </div>
-              <h3 class="text-lg font-semibold text-white" data-i18n="projects.p1Title">
-                Component Library
-              </h3>
-              <p class="mt-2 text-sm text-slate-400" data-i18n="projects.p1Desc">
-                Reusable UI components with React & Tailwind—focused on
-                accessibility and responsive layouts.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-2">
-                <span class="tech-pill text-xs">React</span>
-                <span class="tech-pill text-xs">Tailwind</span>
-              </div>
-              <p class="mt-4 text-xs text-slate-500" data-i18n="projects.soon">
-                Coming soon — add your link
-              </p>
-            </article>
-            <article class="project-card group">
-              <div
-                class="project-card__visual mb-4 h-40 rounded-xl bg-gradient-to-br from-cyan-500/20 to-sky-500/20"
-              >
-                <svg class="ui-icon ui-icon--xl" aria-hidden="true"><use href="#i-bolt"></use></svg>
-              </div>
-              <h3 class="text-lg font-semibold text-white" data-i18n="projects.p2Title">
-                Next.js App
-              </h3>
-              <p class="mt-2 text-sm text-slate-400" data-i18n="projects.p2Desc">
-                Full-stack style front-end exploring Next.js routing, data
-                fetching, and performance patterns.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-2">
-                <span class="tech-pill text-xs">Next.js</span>
-                <span class="tech-pill text-xs">TypeScript</span>
-              </div>
-              <p class="mt-4 text-xs text-slate-500" data-i18n="projects.soon">
-                Coming soon — add your link
-              </p>
-            </article>
-            <article class="project-card group md:col-span-2 lg:col-span-1">
-              <div
-                class="project-card__visual mb-4 h-40 rounded-xl bg-gradient-to-br from-violet-500/20 to-fuchsia-500/20"
-              >
-                <svg class="ui-icon ui-icon--xl ui-icon--violet" aria-hidden="true"><use href="#i-paint"></use></svg>
-              </div>
+                <img
+                  src="/Annotation%202026-10-18%20091711.png"
+                  alt=""
+                  width="640"
+                  height="360"
+                  loading="lazy"
+                  decoding="async"
+                  data-i18n-alt="projects.p3ImageAlt"
+                />
+              </a>
               <h3 class="text-lg font-semibold text-white" data-i18n="projects.p3Title">
-                Design-to-Code
+                Hotel Baman
               </h3>
               <p class="mt-2 text-sm text-slate-400" data-i18n="projects.p3Desc">
-                Portfolio pieces that blend graphic design sensibility with clean,
-                maintainable front-end code.
+                Travel and hotel booking platform for hotels, villas, and tours across Iran.
               </p>
               <div class="mt-4 flex flex-wrap gap-2">
-                <span class="tech-pill text-xs">UI/UX</span>
-                <span class="tech-pill text-xs">CSS</span>
+                <span class="tech-pill text-xs">Web App</span>
+                <span class="tech-pill text-xs">RTL</span>
               </div>
-              <p class="mt-4 text-xs text-slate-500" data-i18n="projects.soon">
-                Coming soon — add your link
-              </p>
+              <a
+                href="https://hotelbaman.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card__cta"
+                data-i18n="projects.viewLive"
+              >
+                View live site
+              </a>
             </article>
           </div>
         </div>
@@ -690,9 +675,6 @@
         <div class="mx-auto max-w-6xl px-4 sm:px-6">
           <div class="reveal mx-auto max-w-3xl text-center">
             <h2 class="section-title" data-i18n="contact.title">Connect With Me</h2>
-            <p class="section-subtitle" data-i18n="contact.subtitle">
-              Let's build something great together
-            </p>
           </div>
           <div
             class="reveal mx-auto mt-12 max-w-2xl rounded-3xl border border-white/10 bg-card/80 p-8 text-center backdrop-blur"

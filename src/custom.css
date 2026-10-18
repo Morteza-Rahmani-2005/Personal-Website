@@ -25,7 +25,7 @@
 }
 
 .header-mark {
-  border: 1px solid transparent;
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .svg-sprite {
@@ -76,6 +76,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.project-card__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.35s ease;
+}
+
+.project-card:hover .project-card__visual img {
+  transform: scale(1.03);
 }
 
 .skill-category__icon .ui-icon {
@@ -178,6 +191,44 @@
   transform: translateY(-4px);
   border-color: rgba(167, 139, 250, 0.35);
   box-shadow: 0 24px 48px -28px rgba(167, 139, 250, 0.4);
+}
+
+.project-card__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  padding: 0.65rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.12) inset,
+    0 10px 28px -14px rgba(14, 165, 233, 0.65);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.project-card__cta:hover {
+  filter: brightness(1.08);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.14) inset,
+    0 14px 32px -12px rgba(139, 92, 246, 0.55);
+}
+
+.project-card:hover .project-card__cta {
+  transform: translateY(-1px);
+}
+
+.project-card__cta:active {
+  transform: translateY(0);
+  filter: brightness(0.98);
 }
 
 .contact-btn {
