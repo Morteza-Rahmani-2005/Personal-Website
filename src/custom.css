@@ -736,9 +736,3 @@ html[dir="rtl"] #home .max-w-xl {
 html[dir="rtl"] #home dl > div {
   text-align: right;
 }
-
-html[dir="rtl"] .section-subtitle,
-html[dir="rtl"] #goals .max-w-3xl > p.text-slate-400,
-html[dir="rtl"] #projects .max-w-3xl > p.text-slate-400 {
-  text-align: right;
-}

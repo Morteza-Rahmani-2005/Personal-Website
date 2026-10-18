@@ -59,9 +59,8 @@ import "./icons.js";
       "skills.tools": "Tools",
       "skills.toolsDesc": "Workflow, version control & IDEs",
       "goals.title": "Goals & Learning",
-      "goals.subtitle": "A continuous journey toward becoming a stronger developer",
-      "goals.intro":
-        "I believe that becoming a better developer is a continuous journey. I'm constantly improving my technical knowledge, strengthening my fundamentals, and expanding my skills.",
+      "goals.subtitle":
+        "A continuous journey toward becoming a stronger developer—I believe it's a never-ending path, and I'm constantly improving my technical knowledge, strengthening my fundamentals, and expanding my skills.",
       "goals.learningTitle": "Currently Learning & Improving",
       "goals.english": "English",
       "goals.englishDesc": "Communication & technical vocabulary",
@@ -157,9 +156,8 @@ import "./icons.js";
       "skills.tools": "ابزارها",
       "skills.toolsDesc": "گردش کار، کنترل نسخه و محیط توسعه",
       "goals.title": "اهداف و یادگیری",
-      "goals.subtitle": "مسیر مداوم برای تبدیل شدن به یک توسعه‌دهنده قوی‌تر",
-      "goals.intro":
-        "معتقدم تبدیل شدن به توسعه‌دهنده بهتر یک سفر بی‌پایان است. مدام دانش فنی، اصول پایه و مهارت‌هایم را گسترش می‌دهم.",
+      "goals.subtitle":
+        "مسیر مداوم برای تبدیل شدن به یک توسعه‌دهنده قوی‌تر؛ معتقدم این سفر بی‌پایان است و مدام دانش فنی، اصول پایه و مهارت‌هایم را گسترش می‌دهم.",
       "goals.learningTitle": "در حال یادگیری و تقویت",
       "goals.english": "انگلیسی",
       "goals.englishDesc": "مهارت ارتباطی و واژگان فنی",
